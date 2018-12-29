@@ -352,6 +352,10 @@
         "source": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main2.xml.flat",
+        "source": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\src\\main\\res\\layout\\activity_main2.xml"
+    },
+    {
         "merged": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\d4c5e9d468142eb377667ea092fdafdf\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
@@ -414,6 +418,10 @@
     {
         "merged": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_default_mtrl_shape.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\d4c5e9d468142eb377667ea092fdafdf\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_init.xml.flat",
+        "source": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\src\\main\\res\\layout\\activity_init.xml"
     },
     {
         "merged": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -514,6 +522,10 @@
     {
         "merged": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\e3854ae7c1d14f7653bdd4dde1c75009\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_first_intro.xml.flat",
+        "source": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\src\\main\\res\\layout\\activity_first_intro.xml"
     },
     {
         "merged": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
@@ -980,6 +992,10 @@
         "source": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
     },
     {
+        "merged": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_second_intro.xml.flat",
+        "source": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\src\\main\\res\\layout\\activity_second_intro.xml"
+    },
+    {
         "merged": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_ab_back_material.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\d4c5e9d468142eb377667ea092fdafdf\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
@@ -1234,6 +1250,10 @@
     {
         "merged": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\d4c5e9d468142eb377667ea092fdafdf\\res\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
