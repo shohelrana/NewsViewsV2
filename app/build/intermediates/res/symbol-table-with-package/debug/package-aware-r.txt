@@ -827,7 +827,6 @@ layout abc_tooltip
 layout activity_first_intro
 layout activity_init
 layout activity_main
-layout activity_main2
 layout activity_second_intro
 layout notification_action
 layout notification_action_tombstone

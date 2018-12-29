@@ -21,7 +21,6 @@
         <activity android:name="info.shohelranabd.newsviewsv2.FirstIntroActivity" />
         <activity android:name="info.shohelranabd.newsviewsv2.SecondIntroActivity" />
         <activity android:name="info.shohelranabd.newsviewsv2.InitActivity" />
-        <activity android:name="info.shohelranabd.newsviewsv2.Main2Activity" />
     </application>
 
 </manifest>
