@@ -88,6 +88,10 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0-alpha01.aar\\50507bf669c1e854764ff75a5c08ae56\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
+        "merged": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_news_details.xml.flat",
+        "source": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\src\\main\\res\\layout\\activity_news_details.xml"
+    },
+    {
         "merged": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0-alpha01.aar\\50507bf669c1e854764ff75a5c08ae56\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },

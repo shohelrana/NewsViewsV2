@@ -18,6 +18,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import info.shohelranabd.newsviewsv2.NewsDetailsActivity;
 import info.shohelranabd.newsviewsv2.R;
 import info.shohelranabd.newsviewsv2.interfaces.ItemClickListener;
 import info.shohelranabd.newsviewsv2.model.News;
@@ -124,6 +125,11 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsViewHolder> {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         dialog.dismiss();
+                        //go and view in webview
+                        Intent intent = new Intent(context, NewsDetailsActivity.class);
+                        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                                .putExtra("url", news.getArticles().get(position).getUrl());
+                        context.startActivity(intent);
                     }
                 });
 

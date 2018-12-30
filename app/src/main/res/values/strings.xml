@@ -5,4 +5,5 @@
     <string name="drawer_item_login">Login</string>
     <string name="drawer_item_logout">Logout</string>
     <string name="drawer_item_exit">Exit</string>
+    <string name="news_details">News Details</string>
 </resources>
