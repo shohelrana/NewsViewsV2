@@ -6,11 +6,21 @@ import android.app.DatePickerDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.drawable.Drawable;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.facebook.AccessToken;
+import com.facebook.Profile;
+import com.facebook.login.LoginManager;
+import com.google.android.gms.auth.api.signin.GoogleSignIn;
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.gson.Gson;
 import com.mikepenz.materialdrawer.AccountHeader;
 import com.mikepenz.materialdrawer.AccountHeaderBuilder;
@@ -21,6 +31,9 @@ import com.mikepenz.materialdrawer.model.ProfileDrawerItem;
 import com.mikepenz.materialdrawer.model.SecondaryDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IProfile;
+import com.mikepenz.materialdrawer.util.AbstractDrawerImageLoader;
+import com.mikepenz.materialdrawer.util.DrawerImageLoader;
+import com.squareup.picasso.Picasso;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -46,7 +59,13 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
     //Preferences
     private SharedPreferences preferences;
     private SharedPreferences.Editor editor;
+
     private boolean isLoggedIn = false;
+    private String loggedInWith = "";
+    private String userEmail = "";
+    private String userName = "";
+    private Uri userIconUri;
+    private String userIconUrl = "";
 
     @BindView(R.id.swipRefresh)
     SwipeRefreshLayout swipRefresh;
@@ -60,6 +79,9 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
 
     private static final String TAG = "MainActivityTag";
 
+    //Google sign client
+    GoogleSignInClient mGoogleSignInClient;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -71,9 +93,46 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
         preferences = getSharedPreferences(Common.PREFS_NAME, MODE_PRIVATE);
         editor = preferences.edit();
         isLoggedIn = preferences.getBoolean(Common.LOG_PREFS_KY, false);
+        loggedInWith = preferences.getString(Common.LOG_WITH_PREFS_KEY, "");
 
         //init paper for cache
         Paper.init(this);
+
+        //Google sign in
+        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestEmail()
+                .build();
+
+        // Build a GoogleSignInClient with the options specified by gso.
+        mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
+
+        //using loggedin status, then update accout header
+        if(isLoggedIn){
+            if (loggedInWith.equals(Common.LOG_WITH_FB)){
+
+                AccessToken accessToken = AccessToken.getCurrentAccessToken();
+                boolean isLoggedInFB = accessToken != null && !accessToken.isExpired();
+                if (isLoggedInFB) {
+                    Profile profile = Profile.getCurrentProfile();
+                    userName = profile.getName();
+                    //userEmail = profile.get;
+                    userIconUri = profile.getProfilePictureUri(100, 100);
+                    userIconUrl = userIconUri.toString();
+                }
+
+            } else if(loggedInWith.equals(Common.LOG_WITH_GOOGLE)){
+                GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(this);
+                if(account != null) {
+                    userName = account.getDisplayName();
+                    userEmail = account.getEmail();
+                    userIconUri = account.getPhotoUrl();
+                    userIconUrl = userIconUri.toString();
+
+                    /*Picasso.get()
+                            .load(userIconUrl)*/
+                }
+            }
+        }
 
         //init soptted dialog
         dialog = new SpotsDialog.Builder().setContext(this).build();
@@ -90,20 +149,46 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
         loadNews(false);
 
         //Material drawer
+        // Loading drawer icon
         // Create the AccountHeader
+        ProfileDrawerItem profileDrawerItem = new ProfileDrawerItem()
+                .withName("------- ----")
+                .withEmail("-----------@---")
+                .withIcon(getResources().getDrawable(R.drawable.def_acc_icon));
+
+        if (!userName.isEmpty())
+            profileDrawerItem.withName(userName);
+        if (!userEmail.isEmpty())
+            profileDrawerItem.withEmail(userEmail);
+        if (userIconUri != null)
+            profileDrawerItem.withIcon(userIconUri);
+
         AccountHeader headerResult = new AccountHeaderBuilder()
                 .withActivity(this)
                 /*.withHeaderBackground(R.drawable.header)*/
                 .addProfiles(
-                        new ProfileDrawerItem().withName("------- ----").withEmail("-----------@---").withIcon(getResources().getDrawable(R.drawable.def_acc_icon))
+                        profileDrawerItem
                 )
-                .withOnAccountHeaderListener(new AccountHeader.OnAccountHeaderListener() {
+                /*.withOnAccountHeaderListener(new AccountHeader.OnAccountHeaderListener() {
                     @Override
                     public boolean onProfileChanged(View view, IProfile profile, boolean currentProfile) {
                         return false;
                     }
-                })
+                })*/
                 .build();
+
+        //initialize and create the image loader logic
+        DrawerImageLoader.init(new AbstractDrawerImageLoader() {
+            @Override
+            public void set(ImageView imageView, Uri uri, Drawable placeholder) {
+                Picasso.get().load(uri).placeholder(placeholder).into(imageView);
+            }
+
+            @Override
+            public void cancel(ImageView imageView) {
+                Picasso.get().cancelRequest(imageView);
+            }
+        });
 
         PrimaryDrawerItem item_home = new PrimaryDrawerItem().withIdentifier(1).withName(R.string.drawer_item_home);
         SecondaryDrawerItem item_about = new SecondaryDrawerItem().withIdentifier(2).withName(R.string.drawer_item_about);
@@ -132,18 +217,27 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
                                 break;
                             case 3:
                                 if (isLoggedIn) {
-                                    editor.putBoolean(Common.LOG_PREFS_KY, false).commit();
+                                    try {
+                                        if (loggedInWith.equals(Common.LOG_WITH_FB))
+                                            LoginManager.getInstance().logOut();
+                                        else if(loggedInWith.equals(Common.LOG_WITH_GOOGLE))
+                                            mGoogleSignInClient.signOut();
+
+                                        editor.putBoolean(Common.LOG_PREFS_KY, false).commit();
+                                    } catch(Exception e) {
+
+                                    }
                                 }
                                 startActivity(new Intent(MainActivity.this, LoginActivity.class));
                                 MainActivity.this.finish();
                                 break;
                             case 4:
                                 //Exit
+                                MainActivity.this.finish();
                                 break;
                             default:
                                 break;
                         }
-                        Toast.makeText(MainActivity.this, "Position: " + position, Toast.LENGTH_SHORT).show();
                         return false;
                     }
                 }).build();

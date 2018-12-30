@@ -9,5 +9,6 @@
 
     <string name="facebook_app_id">1048399178672920</string>
     <string name="fb_login_protocol_scheme">fb1048399178672920</string>
+    <string name="login_options">Login Options</string>
 
 </resources>

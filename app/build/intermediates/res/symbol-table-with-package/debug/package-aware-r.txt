@@ -1704,6 +1704,7 @@ drawable design_snackbar_background
 drawable dmax_spots_spot
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_google
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
@@ -1900,6 +1901,7 @@ id filled
 id fixed
 id flip
 id forever
+id g_signout_bnt
 id ghost_view
 id gone
 id group_divider
@@ -2050,6 +2052,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id sign_in_button
 id sin
 id small
 id smallLabel

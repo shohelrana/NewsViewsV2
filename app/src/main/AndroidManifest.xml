@@ -44,7 +44,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity" />
+        <activity android:name=".LoginActivity"
+            android:label="@string/login_options"/>
 
         <activity android:name=".NewsDetailsActivity"
             android:label="@string/news_details"
