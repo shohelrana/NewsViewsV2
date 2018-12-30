@@ -12,6 +12,23 @@
                         "endColumns": "113,105,108,85,103,119,76,75,91,92,94,93,101,93,95,93,91,91,83,107,105,101,110,100,115,164,97,84",
                         "endOffsets": "214,320,429,515,619,739,816,892,984,1077,1172,1266,1368,1462,1558,1652,1744,1836,1920,2028,2134,2236,2347,2448,2564,2729,2827,2912"
                     }
+                },
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0-alpha02.aar\\14e69549be45c1363b28671b09e4f204\\res\\values-ur\\values-ur.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "30",
+                        "startColumns": "4",
+                        "startOffsets": "2917",
+                        "endColumns": "100",
+                        "endOffsets": "3013"
+                    }
                 }
             ]
         }

@@ -12,6 +12,23 @@
                         "endColumns": "118,109,106,85,103,119,77,76,90,91,95,94,100,92,94,95,90,89,87,109,103,105,110,103,117,162,105,88",
                         "endOffsets": "219,329,436,522,626,746,824,901,992,1084,1180,1275,1376,1469,1564,1660,1751,1841,1929,2039,2143,2249,2360,2464,2582,2745,2851,2940"
                     }
+                },
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0-alpha02.aar\\14e69549be45c1363b28671b09e4f204\\res\\values-or\\values-or.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "30",
+                        "startColumns": "4",
+                        "startOffsets": "2945",
+                        "endColumns": "100",
+                        "endOffsets": "3041"
+                    }
                 }
             ]
         }
