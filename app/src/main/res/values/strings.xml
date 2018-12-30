@@ -6,4 +6,8 @@
     <string name="drawer_item_logout">Logout</string>
     <string name="drawer_item_exit">Exit</string>
     <string name="news_details">News Details</string>
+
+    <string name="facebook_app_id">1048399178672920</string>
+    <string name="fb_login_protocol_scheme">fb1048399178672920</string>
+
 </resources>

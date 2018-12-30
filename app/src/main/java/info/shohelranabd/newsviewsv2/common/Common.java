@@ -21,6 +21,15 @@ import okhttp3.OkHttpClient;
  * Created by Md. Shohel Rana on 30 December,2018
  */
 public class Common {
+    //  Preference name
+    public static final String PREFS_NAME = "news_prefs";
+    public static final String LOG_WITH_PREFS_KEY = "login_with";
+    public static final String LOG_PREFS_KY = "isLoggedIn";
+
+    //log with name
+    public static final String LOG_WITH_FB= "login_with_fb";
+    public static final String LOG_WITH_GOOGLE = "login_with_google";
+
     private static final String BASE_URL = "https://newsapi.org/";
     public static final String API_KEY = "c4d1e307e4b34358b6f4a7c9dc2b9e0c";
 

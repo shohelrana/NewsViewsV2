@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -41,13 +43,17 @@ import retrofit2.Response;
  */
 public class MainActivity extends AppCompatActivity implements SwipeRefreshLayout.OnRefreshListener {
 
+    //Preferences
+    private SharedPreferences preferences;
+    private SharedPreferences.Editor editor;
+    private boolean isLoggedIn = false;
+
     @BindView(R.id.swipRefresh)
     SwipeRefreshLayout swipRefresh;
     @BindView(R.id.recyclerView)
     RecyclerView recyclerView;
     //News adapter
     NewsAdapter adapter;
-    private boolean isLoggedIn = false;
     private NewsService newsService;
 
     AlertDialog dialog;
@@ -61,6 +67,10 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
 
         //Bind view
         ButterKnife.bind(this);
+
+        preferences = getSharedPreferences(Common.PREFS_NAME, MODE_PRIVATE);
+        editor = preferences.edit();
+        isLoggedIn = preferences.getBoolean(Common.LOG_PREFS_KY, false);
 
         //init paper for cache
         Paper.init(this);
@@ -121,7 +131,11 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
                                 //About
                                 break;
                             case 3:
-                                //Login/Logout
+                                if (isLoggedIn) {
+                                    editor.putBoolean(Common.LOG_PREFS_KY, false).commit();
+                                }
+                                startActivity(new Intent(MainActivity.this, LoginActivity.class));
+                                MainActivity.this.finish();
                                 break;
                             case 4:
                                 //Exit

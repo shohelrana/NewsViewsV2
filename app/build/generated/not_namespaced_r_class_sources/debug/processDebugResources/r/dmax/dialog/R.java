@@ -20,32 +20,32 @@ public final class R {
     public static final class color {
         private color() {}
 
-        public static final int spots_dialog_color = 0x7f0501b4;
+        public static final int spots_dialog_color = 0x7f0501d5;
     }
     public static final class dimen {
         private dimen() {}
 
-        public static final int progress_margin = 0x7f060123;
-        public static final int progress_width = 0x7f060124;
-        public static final int spot_size = 0x7f060125;
-        public static final int title_margin = 0x7f060126;
-        public static final int title_padding = 0x7f060127;
+        public static final int progress_margin = 0x7f060135;
+        public static final int progress_width = 0x7f060136;
+        public static final int spot_size = 0x7f060137;
+        public static final int title_margin = 0x7f06013c;
+        public static final int title_padding = 0x7f06013d;
     }
     public static final class drawable {
         private drawable() {}
 
-        public static final int dmax_spots_spot = 0x7f07006e;
+        public static final int dmax_spots_spot = 0x7f070099;
     }
     public static final class id {
         private id() {}
 
-        public static final int dmax_spots_progress = 0x7f080072;
-        public static final int dmax_spots_title = 0x7f080073;
+        public static final int dmax_spots_progress = 0x7f08008c;
+        public static final int dmax_spots_title = 0x7f08008d;
     }
     public static final class layout {
         private layout() {}
 
-        public static final int dmax_spots_dialog = 0x7f0b0032;
+        public static final int dmax_spots_dialog = 0x7f0b0039;
     }
     public static final class style {
         private style() {}
