@@ -37,6 +37,10 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+attr DialogSpotColor
+attr DialogSpotCount
+attr DialogTitleAppearance
+attr DialogTitleText
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -170,6 +174,11 @@ attr chipStrokeColor
 attr chipStrokeWidth
 attr chipStyle
 attr circleRadius
+attr civ_border_color
+attr civ_border_overlay
+attr civ_border_width
+attr civ_circle_background_color
+attr civ_fill_color
 attr clickAction
 attr closeIcon
 attr closeIconEnabled
@@ -1159,6 +1168,7 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color spots_dialog_color
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -1456,6 +1466,11 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen progress_margin
+dimen progress_width
+dimen spot_size
+dimen title_margin
+dimen title_padding
 dimen tool_bar_top_padding
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
@@ -1568,11 +1583,13 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable dmax_spots_spot
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable logo_fallback
 drawable material_drawer_badge
 drawable material_drawer_circle_mask
 drawable material_drawer_shadow_bottom
@@ -1664,6 +1681,8 @@ id alertTitle
 id all
 id always
 id anticipate
+id article_iamge_thumb
+id article_title
 id asConfigured
 id async
 id auto
@@ -1700,10 +1719,18 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id dialgo_no
+id dialgo_yes
 id dialog_button
+id dialog_description
+id dialog_image
+id dialog_link
+id dialog_title
 id dimensions
 id direct
 id disableHome
+id dmax_spots_progress
+id dmax_spots_title
 id dragDown
 id dragLeft
 id dragRight
@@ -1836,6 +1863,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerView
 id reverseSawtooth
 id right
 id right_icon
@@ -1888,6 +1916,7 @@ id startVertical
 id stretch
 id submenuarrow
 id submit_area
+id swipRefresh
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -1992,6 +2021,7 @@ layout activity_init
 layout activity_login
 layout activity_main
 layout activity_second_intro
+layout article_dialog_layout
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2007,6 +2037,7 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout dmax_spots_dialog
 layout material_drawer
 layout material_drawer_compact_header
 layout material_drawer_fits_not
@@ -2031,6 +2062,7 @@ layout material_drawer_slider
 layout materialize
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
+layout news_layout
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -2423,6 +2455,7 @@ style RtlOverlay_Widget_AppCompat_Search_DropDown_Text
 style RtlOverlay_Widget_AppCompat_SearchView_MagIcon
 style RtlUnderlay_Widget_AppCompat_ActionButton
 style RtlUnderlay_Widget_AppCompat_ActionButton_Overflow
+style SpotsDialogDefault
 style TextAppearance_AppCompat
 style TextAppearance_AppCompat_Body1
 style TextAppearance_AppCompat_Body2
@@ -2718,6 +2751,7 @@ styleable ButtonBarLayout allowStacking
 styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop
 styleable Chip android_textAppearance android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipStartPadding chipStrokeColor chipStrokeWidth closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible hideMotionSpec iconEndPadding iconStartPadding rippleColor showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical singleLine singleSelection
+styleable CircleImageView civ_border_color civ_border_overlay civ_border_width civ_circle_background_color civ_fill_color
 styleable CollapsingToolbarLayout collapsedTitleGravity collapsedTitleTextAppearance contentScrim expandedTitleGravity expandedTitleMargin expandedTitleMarginBottom expandedTitleMarginEnd expandedTitleMarginStart expandedTitleMarginTop expandedTitleTextAppearance scrimAnimationDuration scrimVisibleHeightTrigger statusBarScrim title titleEnabled toolbarId
 styleable CollapsingToolbarLayout_Layout layout_collapseMode layout_collapseParallaxMultiplier
 styleable ColorStateListItem android_color android_alpha alpha
@@ -2730,6 +2764,7 @@ styleable CoordinatorLayout keylines statusBarBackground
 styleable CoordinatorLayout_Layout android_layout_gravity layout_anchor layout_anchorGravity layout_behavior layout_dodgeInsetEdges layout_insetEdge layout_keyline
 styleable CustomAttribute attributeName customBoolean customColorDrawableValue customColorValue customDimension customFloatValue customIntegerValue customStringValue
 styleable DesignTheme bottomSheetDialogTheme bottomSheetStyle
+styleable Dialog DialogSpotColor DialogSpotCount DialogTitleAppearance DialogTitleText
 styleable DrawerArrowToggle arrowHeadLength arrowShaftLength barLength color drawableSize gapBetweenBars spinBars thickness
 styleable FloatingActionButton backgroundTint backgroundTintMode borderWidth elevation fabCustomSize fabSize hideMotionSpec hoveredFocusedTranslationZ maxImageSize pressedTranslationZ rippleColor showMotionSpec useCompatPadding
 styleable FloatingActionButton_Behavior_Layout behavior_autoHide

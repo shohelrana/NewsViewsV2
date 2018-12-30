@@ -1,19 +1,20 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-27:12
 MERGED from [com.mikepenz:materialdrawer:6.1.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\materialdrawer-6.1.2.aar\e9ca067d032e8ebcfa2d3eb6d5f206ac\AndroidManifest.xml:2:1-11:12
 MERGED from [com.mikepenz:materialize:1.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\materialize-1.2.0.aar\a5098ba8a5ae13883055d8df46fdf273\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\472b3270ccbbfecc3323e2ed5df0a49a\AndroidManifest.xml:17:1-24:12
-MERGED from [com.mikepenz:iconics-core:3.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\iconics-core-3.1.0.aar\50ff35683d35a6a42e3470d9c85e8bfc\AndroidManifest.xml:2:1-11:12
 MERGED from [com.mikepenz:fastadapter-extensions-expandable:3.3.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\fastadapter-extensions-expandable-3.3.0.aar\2eb8e35ee6ba292d6aa12b640dcac986\AndroidManifest.xml:2:1-11:12
 MERGED from [com.mikepenz:fastadapter-commons:3.3.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\fastadapter-commons-3.3.0.aar\78d4ee4ce534cc9f8363fa93852d000d\AndroidManifest.xml:2:1-11:12
+MERGED from [com.mikepenz:iconics-core:3.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\iconics-core-3.1.0.aar\50ff35683d35a6a42e3470d9c85e8bfc\AndroidManifest.xml:2:1-11:12
 MERGED from [com.mikepenz:fastadapter:3.3.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-fastadapter-3.3.0.aar\ffcde8f3e368228015f0ac08b4fd7d36\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha3] C:\Users\user\.gradle\caches\transforms-1\files-1.1\constraintlayout-2.0.0-alpha3.aar\e8d554c4a19e3f9cbe5e9e15e57139c5\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.1.0-alpha01] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0-alpha01.aar\50507bf669c1e854764ff75a5c08ae56\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha01] C:\Users\user\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0-alpha01.aar\12b5bb0af2c51934c13223f1186618bb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\1e8e9e8de56c3a1e7777b125f3811a29\AndroidManifest.xml:2:1-14:12
 MERGED from [com.jakewharton:butterknife:9.0.0-rc3] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-butterknife-9.0.0-rc3.aar\97afe7e39ebe9453ee877ac10d14d58d\AndroidManifest.xml:2:1-7:12
 MERGED from [com.jakewharton:butterknife-runtime:9.0.0-rc3] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-butterknife-runtime-9.0.0-rc3.aar\e13201978c8d5976bc97d7cdbff212e9\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\b268f988d8742c269d238c0a8dc1eecc\AndroidManifest.xml:17:1-22:12
@@ -21,6 +22,7 @@ MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\user\.gradle
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\a07fc704cac9bfa96ef0d3f47f99df8b\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.transition:transition:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\transition-1.0.0.aar\6b44eda103b285aa51dd4860a1b1f636\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\73011baeb124cc10e6dfb6926f9b9fff\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0-rc01] C:\Users\user\.gradle\caches\transforms-1\files-1.1\exifinterface-1.0.0-rc01.aar\26b4c9fd68e8b14ea5ff5cd1d425d198\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.1.0-alpha02] C:\Users\user\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0-alpha02.aar\29923e5a35df3c743bf8cdc4c4a6018a\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\2a20d64fae759b6d46faf141b596f845\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\36cb4f2ba5f7c0f081d09ea843a0f635\AndroidManifest.xml:17:1-22:12
@@ -44,77 +46,96 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\user\.gradle
 MERGED from [androidx.core:core:1.1.0-alpha02] C:\Users\user\.gradle\caches\transforms-1\files-1.1\core-1.1.0-alpha02.aar\14e69549be45c1363b28671b09e4f204\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\053e45e279b09fb52107351ba54437c0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] C:\Users\user\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-alpha01.aar\21317ace688128683e293e12d1908287\AndroidManifest.xml:17:1-25:12
-INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-24:12
+MERGED from [com.github.d-max:spots-dialog:1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-spots-dialog-1.1.aar\866f8571f1b78c912f49456fd449082e\AndroidManifest.xml:2:1-13:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-circleimageview-2.2.0.aar\d8ec86f0ed74e90f4e3a8ba4b04329db\AndroidManifest.xml:2:1-11:12
+MERGED from [io.paperdb:paperdb:2.6] C:\Users\user\.gradle\caches\transforms-1\files-1.1\paperdb-2.6.aar\523a595422cb38d32b8b907159741653\AndroidManifest.xml:2:1-14:12
+INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:3:5-44
 		INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:5:5-78
+	android:name
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:5:5-22:19
+ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:8:5-25:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\472b3270ccbbfecc3323e2ed5df0a49a\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\472b3270ccbbfecc3323e2ed5df0a49a\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha3] C:\Users\user\.gradle\caches\transforms-1\files-1.1\constraintlayout-2.0.0-alpha3.aar\e8d554c4a19e3f9cbe5e9e15e57139c5\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha3] C:\Users\user\.gradle\caches\transforms-1\files-1.1\constraintlayout-2.0.0-alpha3.aar\e8d554c4a19e3f9cbe5e9e15e57139c5\AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\1e8e9e8de56c3a1e7777b125f3811a29\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\1e8e9e8de56c3a1e7777b125f3811a29\AndroidManifest.xml:7:5-12:19
 MERGED from [androidx.core:core:1.1.0-alpha02] C:\Users\user\.gradle\caches\transforms-1\files-1.1\core-1.1.0-alpha02.aar\14e69549be45c1363b28671b09e4f204\AndroidManifest.xml:22:5-89
 MERGED from [androidx.core:core:1.1.0-alpha02] C:\Users\user\.gradle\caches\transforms-1\files-1.1\core-1.1.0-alpha02.aar\14e69549be45c1363b28671b09e4f204\AndroidManifest.xml:22:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] C:\Users\user\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-alpha01.aar\21317ace688128683e293e12d1908287\AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] C:\Users\user\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-alpha01.aar\21317ace688128683e293e12d1908287\AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.d-max:spots-dialog:1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-spots-dialog-1.1.aar\866f8571f1b78c912f49456fd449082e\AndroidManifest.xml:11:5-20
+MERGED from [com.github.d-max:spots-dialog:1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-spots-dialog-1.1.aar\866f8571f1b78c912f49456fd449082e\AndroidManifest.xml:11:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-circleimageview-2.2.0.aar\d8ec86f0ed74e90f4e3a8ba4b04329db\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-circleimageview-2.2.0.aar\d8ec86f0ed74e90f4e3a8ba4b04329db\AndroidManifest.xml:9:5-20
+MERGED from [io.paperdb:paperdb:2.6] C:\Users\user\.gradle\caches\transforms-1\files-1.1\paperdb-2.6.aar\523a595422cb38d32b8b907159741653\AndroidManifest.xml:12:5-20
+MERGED from [io.paperdb:paperdb:2.6] C:\Users\user\.gradle\caches\transforms-1\files-1.1\paperdb-2.6.aar\523a595422cb38d32b8b907159741653\AndroidManifest.xml:12:5-20
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0-alpha02] C:\Users\user\.gradle\caches\transforms-1\files-1.1\core-1.1.0-alpha02.aar\14e69549be45c1363b28671b09e4f204\AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:14:9-40
 activity#info.shohelranabd.newsviewsv2.MainActivity
-ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:12:9-17:20
+ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:15:9-20:20
 	android:name
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:15:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:13:13-16:29
+ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:16:13-19:29
 action#android.intent.action.MAIN
-ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:14:17-68
+ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:17:17-68
 	android:name
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:15:17-76
+ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:18:17-76
 	android:name
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:15:27-74
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:18:27-74
 activity#info.shohelranabd.newsviewsv2.FirstIntroActivity
-ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:18:9-56
+ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:21:9-56
 	android:name
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:18:19-53
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:21:19-53
 activity#info.shohelranabd.newsviewsv2.SecondIntroActivity
-ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:19:9-57
+ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:22:9-57
 	android:name
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:19:19-54
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:22:19-54
 activity#info.shohelranabd.newsviewsv2.InitActivity
-ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:20:9-50
+ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:23:9-50
 	android:name
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:20:19-47
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:23:19-47
 activity#info.shohelranabd.newsviewsv2.LoginActivity
-ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:21:9-60
+ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:24:9-60
 	android:name
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:21:19-48
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:24:19-48
 uses-sdk
 INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml
@@ -125,12 +146,12 @@ MERGED from [com.mikepenz:materialize:1.2.0] C:\Users\user\.gradle\caches\transf
 MERGED from [com.mikepenz:materialize:1.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\materialize-1.2.0.aar\a5098ba8a5ae13883055d8df46fdf273\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\472b3270ccbbfecc3323e2ed5df0a49a\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\472b3270ccbbfecc3323e2ed5df0a49a\AndroidManifest.xml:20:5-44
-MERGED from [com.mikepenz:iconics-core:3.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\iconics-core-3.1.0.aar\50ff35683d35a6a42e3470d9c85e8bfc\AndroidManifest.xml:7:5-9:41
-MERGED from [com.mikepenz:iconics-core:3.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\iconics-core-3.1.0.aar\50ff35683d35a6a42e3470d9c85e8bfc\AndroidManifest.xml:7:5-9:41
 MERGED from [com.mikepenz:fastadapter-extensions-expandable:3.3.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\fastadapter-extensions-expandable-3.3.0.aar\2eb8e35ee6ba292d6aa12b640dcac986\AndroidManifest.xml:7:5-9:41
 MERGED from [com.mikepenz:fastadapter-extensions-expandable:3.3.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\fastadapter-extensions-expandable-3.3.0.aar\2eb8e35ee6ba292d6aa12b640dcac986\AndroidManifest.xml:7:5-9:41
 MERGED from [com.mikepenz:fastadapter-commons:3.3.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\fastadapter-commons-3.3.0.aar\78d4ee4ce534cc9f8363fa93852d000d\AndroidManifest.xml:7:5-9:41
 MERGED from [com.mikepenz:fastadapter-commons:3.3.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\fastadapter-commons-3.3.0.aar\78d4ee4ce534cc9f8363fa93852d000d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:iconics-core:3.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\iconics-core-3.1.0.aar\50ff35683d35a6a42e3470d9c85e8bfc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:iconics-core:3.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\iconics-core-3.1.0.aar\50ff35683d35a6a42e3470d9c85e8bfc\AndroidManifest.xml:7:5-9:41
 MERGED from [com.mikepenz:fastadapter:3.3.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-fastadapter-3.3.0.aar\ffcde8f3e368228015f0ac08b4fd7d36\AndroidManifest.xml:7:5-9:41
 MERGED from [com.mikepenz:fastadapter:3.3.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-fastadapter-3.3.0.aar\ffcde8f3e368228015f0ac08b4fd7d36\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha3] C:\Users\user\.gradle\caches\transforms-1\files-1.1\constraintlayout-2.0.0-alpha3.aar\e8d554c4a19e3f9cbe5e9e15e57139c5\AndroidManifest.xml:5:5-7:41
@@ -139,6 +160,8 @@ MERGED from [androidx.appcompat:appcompat:1.1.0-alpha01] C:\Users\user\.gradle\c
 MERGED from [androidx.appcompat:appcompat:1.1.0-alpha01] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0-alpha01.aar\50507bf669c1e854764ff75a5c08ae56\AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha01] C:\Users\user\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0-alpha01.aar\12b5bb0af2c51934c13223f1186618bb\AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha01] C:\Users\user\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0-alpha01.aar\12b5bb0af2c51934c13223f1186618bb\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\1e8e9e8de56c3a1e7777b125f3811a29\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\1e8e9e8de56c3a1e7777b125f3811a29\AndroidManifest.xml:5:5-44
 MERGED from [com.jakewharton:butterknife:9.0.0-rc3] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-butterknife-9.0.0-rc3.aar\97afe7e39ebe9453ee877ac10d14d58d\AndroidManifest.xml:5:5-44
 MERGED from [com.jakewharton:butterknife:9.0.0-rc3] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-butterknife-9.0.0-rc3.aar\97afe7e39ebe9453ee877ac10d14d58d\AndroidManifest.xml:5:5-44
 MERGED from [com.jakewharton:butterknife-runtime:9.0.0-rc3] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-butterknife-runtime-9.0.0-rc3.aar\e13201978c8d5976bc97d7cdbff212e9\AndroidManifest.xml:5:5-44
@@ -153,6 +176,8 @@ MERGED from [androidx.transition:transition:1.0.0] C:\Users\user\.gradle\caches\
 MERGED from [androidx.transition:transition:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\transition-1.0.0.aar\6b44eda103b285aa51dd4860a1b1f636\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\73011baeb124cc10e6dfb6926f9b9fff\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\73011baeb124cc10e6dfb6926f9b9fff\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0-rc01] C:\Users\user\.gradle\caches\transforms-1\files-1.1\exifinterface-1.0.0-rc01.aar\26b4c9fd68e8b14ea5ff5cd1d425d198\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0-rc01] C:\Users\user\.gradle\caches\transforms-1\files-1.1\exifinterface-1.0.0-rc01.aar\26b4c9fd68e8b14ea5ff5cd1d425d198\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0-alpha02] C:\Users\user\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0-alpha02.aar\29923e5a35df3c743bf8cdc4c4a6018a\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0-alpha02] C:\Users\user\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0-alpha02.aar\29923e5a35df3c743bf8cdc4c4a6018a\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\2a20d64fae759b6d46faf141b596f845\AndroidManifest.xml:20:5-44
@@ -199,6 +224,12 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\user\.gradle\c
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\053e45e279b09fb52107351ba54437c0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] C:\Users\user\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-alpha01.aar\21317ace688128683e293e12d1908287\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] C:\Users\user\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-alpha01.aar\21317ace688128683e293e12d1908287\AndroidManifest.xml:20:5-44
+MERGED from [com.github.d-max:spots-dialog:1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-spots-dialog-1.1.aar\866f8571f1b78c912f49456fd449082e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.d-max:spots-dialog:1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-spots-dialog-1.1.aar\866f8571f1b78c912f49456fd449082e\AndroidManifest.xml:7:5-9:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-circleimageview-2.2.0.aar\d8ec86f0ed74e90f4e3a8ba4b04329db\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-circleimageview-2.2.0.aar\d8ec86f0ed74e90f4e3a8ba4b04329db\AndroidManifest.xml:5:5-7:41
+MERGED from [io.paperdb:paperdb:2.6] C:\Users\user\.gradle\caches\transforms-1\files-1.1\paperdb-2.6.aar\523a595422cb38d32b8b907159741653\AndroidManifest.xml:8:5-10:41
+MERGED from [io.paperdb:paperdb:2.6] C:\Users\user\.gradle\caches\transforms-1\files-1.1\paperdb-2.6.aar\523a595422cb38d32b8b907159741653\AndroidManifest.xml:8:5-10:41
 INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml
 INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -209,3 +240,11 @@ INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main
 		INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml
 		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\1e8e9e8de56c3a1e7777b125f3811a29\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\1e8e9e8de56c3a1e7777b125f3811a29\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\1e8e9e8de56c3a1e7777b125f3811a29\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\1e8e9e8de56c3a1e7777b125f3811a29\AndroidManifest.xml:9:13-64

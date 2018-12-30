@@ -14,12 +14,31 @@
                         "endOffsets": "479,905,1328,1763"
                     },
                     "to": {
-                        "startLines": "311,319,327,335",
+                        "startLines": "317,325,333,341",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "22432,22861,23287,23710",
-                        "endLines": "318,326,334,342",
+                        "startOffsets": "22793,23222,23648,24071",
+                        "endLines": "324,332,340,348",
                         "endColumns": "10,10,10,10",
-                        "endOffsets": "22856,23282,23705,24140"
+                        "endOffsets": "23217,23643,24066,24501"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-spots-dialog-1.1.aar\\866f8571f1b78c912f49456fd449082e\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "411"
+                    },
+                    "to": {
+                        "startLines": "307",
+                        "startColumns": "4",
+                        "startOffsets": "21936",
+                        "endLines": "312",
+                        "endColumns": "12",
+                        "endOffsets": "22292"
                     }
                 },
                 {
@@ -52,12 +71,12 @@
                         "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,307,308,309,310,343,346",
+                        "startLines": "2,3,4,5,313,314,315,316,349,352",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,159,223,290,21936,22052,22178,22304,24145,24317",
-                        "endLines": "2,3,4,5,307,308,309,310,345,350",
+                        "startOffsets": "55,159,223,290,22297,22413,22539,22665,24506,24678",
+                        "endLines": "2,3,4,5,313,314,315,316,351,356",
                         "endColumns": "103,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "154,218,285,349,22047,22173,22299,22427,24312,24650"
+                        "endOffsets": "154,218,285,349,22408,22534,22660,22788,24673,25011"
                     }
                 },
                 {
