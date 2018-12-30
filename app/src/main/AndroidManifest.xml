@@ -13,6 +13,7 @@
         <activity android:name=".FirstIntroActivity" />
         <activity android:name=".SecondIntroActivity" />
         <activity android:name=".InitActivity" />
+        <activity android:name=".LoginActivity"></activity>
     </application>
 
 </manifest>
