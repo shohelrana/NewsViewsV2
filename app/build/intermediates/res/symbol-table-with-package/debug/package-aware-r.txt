@@ -2340,6 +2340,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_about
 layout activity_first_intro
 layout activity_init
 layout activity_login
@@ -2456,6 +2457,7 @@ string abc_toolbar_collapse_description
 string about_self_desp
 string action_placeholder
 string action_search
+string app_about_desp
 string app_intro_back_button
 string app_intro_done_button
 string app_intro_next_button
@@ -2528,7 +2530,9 @@ string fastadapter_lib_version
 string fb_login_protocol_scheme
 string hide_bottom_view_on_scroll_behavior
 string iconics_lib_version
+string intro_log_desp
 string intro_search
+string intro_search_desp
 string library_AndroidIconics_author
 string library_AndroidIconics_authorWebsite
 string library_AndroidIconics_isOpenSource

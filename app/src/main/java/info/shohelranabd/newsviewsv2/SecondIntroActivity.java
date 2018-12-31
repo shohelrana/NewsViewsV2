@@ -39,7 +39,7 @@ public class SecondIntroActivity extends AppIntro {
         addSlide(AppIntroFragment.newInstance(sliderPage));
 
         SliderPage sliderPage2 = new SliderPage();
-        sliderPage2.setTitle(getResources().getString(R.string.app_name));
+        sliderPage2.setTitle(getResources().getString(R.string.drawer_item_login));
         sliderPage2.setDescription(getString(R.string.intro_log_desp));
         sliderPage2.setImageDrawable(R.drawable.ic_login);
         sliderPage2.setBgColor(Color.parseColor("#2196F3"));

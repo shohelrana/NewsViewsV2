@@ -19,4 +19,6 @@
     <string name="intro_search_desp">You can search using number and can get the trivia and also get history through date searching with the help of number api.</string>
     <string name="intro_log_desp">User can login either by google or facebook api.</string>
 
+    <string name="app_about_desp">The features including in this app are two intro screens, navigation drawer, facebook and google login, listing and viewing news, search using number api etc.</string>
+
 </resources>

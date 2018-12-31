@@ -229,6 +229,7 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
                                 break;
                             case 2:
                                 //About
+                                startActivity(new Intent(MainActivity.this, AboutActivity.class));
                                 break;
                             case 3:
                                 if (isLoggedIn) {

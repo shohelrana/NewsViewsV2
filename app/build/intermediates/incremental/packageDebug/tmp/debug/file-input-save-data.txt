@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Dec 31 09:30:15 BDT 2018
+#Mon Dec 31 10:33:56 BDT 2018
 1.base=D\:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY

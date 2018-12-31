@@ -778,16 +778,16 @@ public final class R {
         public static final int abc_search_view = 0x7f0b0019;
         public static final int abc_select_dialog_material = 0x7f0b001a;
         public static final int abc_tooltip = 0x7f0b001b;
-        public static final int notification_action = 0x7f0b005c;
-        public static final int notification_action_tombstone = 0x7f0b005d;
-        public static final int notification_template_custom_big = 0x7f0b0064;
-        public static final int notification_template_icon_group = 0x7f0b0065;
-        public static final int notification_template_part_chronometer = 0x7f0b0069;
-        public static final int notification_template_part_time = 0x7f0b006a;
-        public static final int select_dialog_item_material = 0x7f0b006c;
-        public static final int select_dialog_multichoice_material = 0x7f0b006d;
-        public static final int select_dialog_singlechoice_material = 0x7f0b006e;
-        public static final int support_simple_spinner_dropdown_item = 0x7f0b006f;
+        public static final int notification_action = 0x7f0b005d;
+        public static final int notification_action_tombstone = 0x7f0b005e;
+        public static final int notification_template_custom_big = 0x7f0b0065;
+        public static final int notification_template_icon_group = 0x7f0b0066;
+        public static final int notification_template_part_chronometer = 0x7f0b006a;
+        public static final int notification_template_part_time = 0x7f0b006b;
+        public static final int select_dialog_item_material = 0x7f0b006d;
+        public static final int select_dialog_multichoice_material = 0x7f0b006e;
+        public static final int select_dialog_singlechoice_material = 0x7f0b006f;
+        public static final int support_simple_spinner_dropdown_item = 0x7f0b0070;
     }
     public static final class string {
         private string() {}
@@ -819,21 +819,21 @@ public final class R {
         public static final int abc_shareactionprovider_share_with = 0x7f0d0018;
         public static final int abc_shareactionprovider_share_with_application = 0x7f0d0019;
         public static final int abc_toolbar_collapse_description = 0x7f0d001a;
-        public static final int define_AndroidIconics = 0x7f0d0051;
-        public static final int iconics_lib_version = 0x7f0d0065;
-        public static final int library_AndroidIconics_author = 0x7f0d0067;
-        public static final int library_AndroidIconics_authorWebsite = 0x7f0d0068;
-        public static final int library_AndroidIconics_isOpenSource = 0x7f0d0069;
-        public static final int library_AndroidIconics_libraryDescription = 0x7f0d006a;
-        public static final int library_AndroidIconics_libraryName = 0x7f0d006b;
-        public static final int library_AndroidIconics_libraryVersion = 0x7f0d006c;
-        public static final int library_AndroidIconics_libraryWebsite = 0x7f0d006d;
-        public static final int library_AndroidIconics_licenseId = 0x7f0d006e;
-        public static final int library_AndroidIconics_owner = 0x7f0d006f;
-        public static final int library_AndroidIconics_repositoryLink = 0x7f0d0070;
-        public static final int library_AndroidIconics_year = 0x7f0d0071;
-        public static final int search_menu_title = 0x7f0d00aa;
-        public static final int status_bar_notification_info_overflow = 0x7f0d00ab;
+        public static final int define_AndroidIconics = 0x7f0d0052;
+        public static final int iconics_lib_version = 0x7f0d0066;
+        public static final int library_AndroidIconics_author = 0x7f0d006a;
+        public static final int library_AndroidIconics_authorWebsite = 0x7f0d006b;
+        public static final int library_AndroidIconics_isOpenSource = 0x7f0d006c;
+        public static final int library_AndroidIconics_libraryDescription = 0x7f0d006d;
+        public static final int library_AndroidIconics_libraryName = 0x7f0d006e;
+        public static final int library_AndroidIconics_libraryVersion = 0x7f0d006f;
+        public static final int library_AndroidIconics_libraryWebsite = 0x7f0d0070;
+        public static final int library_AndroidIconics_licenseId = 0x7f0d0071;
+        public static final int library_AndroidIconics_owner = 0x7f0d0072;
+        public static final int library_AndroidIconics_repositoryLink = 0x7f0d0073;
+        public static final int library_AndroidIconics_year = 0x7f0d0074;
+        public static final int search_menu_title = 0x7f0d00ad;
+        public static final int status_bar_notification_info_overflow = 0x7f0d00ae;
     }
     public static final class style {
         private style() {}

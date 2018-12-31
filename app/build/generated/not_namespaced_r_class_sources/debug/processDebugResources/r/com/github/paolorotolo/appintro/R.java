@@ -793,23 +793,23 @@ public final class R {
         public static final int abc_search_view = 0x7f0b0019;
         public static final int abc_select_dialog_material = 0x7f0b001a;
         public static final int abc_tooltip = 0x7f0b001b;
-        public static final int appintro_default_indicator = 0x7f0b0023;
-        public static final int appintro_fragment_intro = 0x7f0b0024;
-        public static final int appintro_fragment_intro2 = 0x7f0b0025;
-        public static final int appintro_fragment_intro_content = 0x7f0b0026;
-        public static final int appintro_intro_layout = 0x7f0b0027;
-        public static final int appintro_intro_layout2 = 0x7f0b0028;
-        public static final int appintro_progress_indicator = 0x7f0b0029;
-        public static final int notification_action = 0x7f0b005c;
-        public static final int notification_action_tombstone = 0x7f0b005d;
-        public static final int notification_template_custom_big = 0x7f0b0064;
-        public static final int notification_template_icon_group = 0x7f0b0065;
-        public static final int notification_template_part_chronometer = 0x7f0b0069;
-        public static final int notification_template_part_time = 0x7f0b006a;
-        public static final int select_dialog_item_material = 0x7f0b006c;
-        public static final int select_dialog_multichoice_material = 0x7f0b006d;
-        public static final int select_dialog_singlechoice_material = 0x7f0b006e;
-        public static final int support_simple_spinner_dropdown_item = 0x7f0b006f;
+        public static final int appintro_default_indicator = 0x7f0b0024;
+        public static final int appintro_fragment_intro = 0x7f0b0025;
+        public static final int appintro_fragment_intro2 = 0x7f0b0026;
+        public static final int appintro_fragment_intro_content = 0x7f0b0027;
+        public static final int appintro_intro_layout = 0x7f0b0028;
+        public static final int appintro_intro_layout2 = 0x7f0b0029;
+        public static final int appintro_progress_indicator = 0x7f0b002a;
+        public static final int notification_action = 0x7f0b005d;
+        public static final int notification_action_tombstone = 0x7f0b005e;
+        public static final int notification_template_custom_big = 0x7f0b0065;
+        public static final int notification_template_icon_group = 0x7f0b0066;
+        public static final int notification_template_part_chronometer = 0x7f0b006a;
+        public static final int notification_template_part_time = 0x7f0b006b;
+        public static final int select_dialog_item_material = 0x7f0b006d;
+        public static final int select_dialog_multichoice_material = 0x7f0b006e;
+        public static final int select_dialog_singlechoice_material = 0x7f0b006f;
+        public static final int support_simple_spinner_dropdown_item = 0x7f0b0070;
     }
     public static final class string {
         private string() {}
@@ -841,23 +841,23 @@ public final class R {
         public static final int abc_shareactionprovider_share_with = 0x7f0d0018;
         public static final int abc_shareactionprovider_share_with_application = 0x7f0d0019;
         public static final int abc_toolbar_collapse_description = 0x7f0d001a;
-        public static final int app_intro_back_button = 0x7f0d001e;
-        public static final int app_intro_done_button = 0x7f0d001f;
-        public static final int app_intro_next_button = 0x7f0d0020;
-        public static final int app_intro_skip_button = 0x7f0d0021;
-        public static final int define_appintro = 0x7f0d0052;
-        public static final int library_appintro_author = 0x7f0d0072;
-        public static final int library_appintro_authorWebsite = 0x7f0d0073;
-        public static final int library_appintro_classPath = 0x7f0d0074;
-        public static final int library_appintro_isOpenSource = 0x7f0d0075;
-        public static final int library_appintro_libraryDescription = 0x7f0d0076;
-        public static final int library_appintro_libraryName = 0x7f0d0077;
-        public static final int library_appintro_libraryVersion = 0x7f0d0078;
-        public static final int library_appintro_libraryWebsite = 0x7f0d0079;
-        public static final int library_appintro_licenseId = 0x7f0d007a;
-        public static final int library_appintro_repositoryLink = 0x7f0d007b;
-        public static final int search_menu_title = 0x7f0d00aa;
-        public static final int status_bar_notification_info_overflow = 0x7f0d00ab;
+        public static final int app_intro_back_button = 0x7f0d001f;
+        public static final int app_intro_done_button = 0x7f0d0020;
+        public static final int app_intro_next_button = 0x7f0d0021;
+        public static final int app_intro_skip_button = 0x7f0d0022;
+        public static final int define_appintro = 0x7f0d0053;
+        public static final int library_appintro_author = 0x7f0d0075;
+        public static final int library_appintro_authorWebsite = 0x7f0d0076;
+        public static final int library_appintro_classPath = 0x7f0d0077;
+        public static final int library_appintro_isOpenSource = 0x7f0d0078;
+        public static final int library_appintro_libraryDescription = 0x7f0d0079;
+        public static final int library_appintro_libraryName = 0x7f0d007a;
+        public static final int library_appintro_libraryVersion = 0x7f0d007b;
+        public static final int library_appintro_libraryWebsite = 0x7f0d007c;
+        public static final int library_appintro_licenseId = 0x7f0d007d;
+        public static final int library_appintro_repositoryLink = 0x7f0d007e;
+        public static final int search_menu_title = 0x7f0d00ad;
+        public static final int status_bar_notification_info_overflow = 0x7f0d00ae;
     }
     public static final class style {
         private style() {}

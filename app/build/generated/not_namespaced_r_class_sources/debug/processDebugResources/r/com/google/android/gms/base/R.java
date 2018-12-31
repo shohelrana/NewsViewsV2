@@ -75,23 +75,23 @@ public final class R {
     public static final class string {
         private string() {}
 
-        public static final int common_google_play_services_enable_button = 0x7f0d003f;
-        public static final int common_google_play_services_enable_text = 0x7f0d0040;
-        public static final int common_google_play_services_enable_title = 0x7f0d0041;
-        public static final int common_google_play_services_install_button = 0x7f0d0042;
-        public static final int common_google_play_services_install_text = 0x7f0d0043;
-        public static final int common_google_play_services_install_title = 0x7f0d0044;
-        public static final int common_google_play_services_notification_channel_name = 0x7f0d0045;
-        public static final int common_google_play_services_notification_ticker = 0x7f0d0046;
-        public static final int common_google_play_services_unsupported_text = 0x7f0d0048;
-        public static final int common_google_play_services_update_button = 0x7f0d0049;
-        public static final int common_google_play_services_update_text = 0x7f0d004a;
-        public static final int common_google_play_services_update_title = 0x7f0d004b;
-        public static final int common_google_play_services_updating_text = 0x7f0d004c;
-        public static final int common_google_play_services_wear_update_text = 0x7f0d004d;
-        public static final int common_open_on_phone = 0x7f0d004e;
-        public static final int common_signin_button_text = 0x7f0d004f;
-        public static final int common_signin_button_text_long = 0x7f0d0050;
+        public static final int common_google_play_services_enable_button = 0x7f0d0040;
+        public static final int common_google_play_services_enable_text = 0x7f0d0041;
+        public static final int common_google_play_services_enable_title = 0x7f0d0042;
+        public static final int common_google_play_services_install_button = 0x7f0d0043;
+        public static final int common_google_play_services_install_text = 0x7f0d0044;
+        public static final int common_google_play_services_install_title = 0x7f0d0045;
+        public static final int common_google_play_services_notification_channel_name = 0x7f0d0046;
+        public static final int common_google_play_services_notification_ticker = 0x7f0d0047;
+        public static final int common_google_play_services_unsupported_text = 0x7f0d0049;
+        public static final int common_google_play_services_update_button = 0x7f0d004a;
+        public static final int common_google_play_services_update_text = 0x7f0d004b;
+        public static final int common_google_play_services_update_title = 0x7f0d004c;
+        public static final int common_google_play_services_updating_text = 0x7f0d004d;
+        public static final int common_google_play_services_wear_update_text = 0x7f0d004e;
+        public static final int common_open_on_phone = 0x7f0d004f;
+        public static final int common_signin_button_text = 0x7f0d0050;
+        public static final int common_signin_button_text_long = 0x7f0d0051;
     }
     public static final class styleable {
         private styleable() {}
