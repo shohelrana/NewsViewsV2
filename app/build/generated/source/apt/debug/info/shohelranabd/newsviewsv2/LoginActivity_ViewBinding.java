@@ -15,7 +15,7 @@ import java.lang.Override;
 public class LoginActivity_ViewBinding implements Unbinder {
   private LoginActivity target;
 
-  private View view7f08013e;
+  private View view7f080151;
 
   private View view7f0800a7;
 
@@ -31,7 +31,7 @@ public class LoginActivity_ViewBinding implements Unbinder {
     View view;
     view = Utils.findRequiredView(source, R.id.sign_in_button, "field 'signInButton' and method 'googleSignIn'");
     target.signInButton = Utils.castView(view, R.id.sign_in_button, "field 'signInButton'", SignInButton.class);
-    view7f08013e = view;
+    view7f080151 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -59,8 +59,8 @@ public class LoginActivity_ViewBinding implements Unbinder {
     target.signInButton = null;
     target.g_signout_bnt = null;
 
-    view7f08013e.setOnClickListener(null);
-    view7f08013e = null;
+    view7f080151.setOnClickListener(null);
+    view7f080151 = null;
     view7f0800a7.setOnClickListener(null);
     view7f0800a7 = null;
   }

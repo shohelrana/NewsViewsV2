@@ -1,4 +1,4 @@
-#Mon Dec 31 03:31:37 BDT 2018
+#Mon Dec 31 06:47:15 BDT 2018
 base.0=D\:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

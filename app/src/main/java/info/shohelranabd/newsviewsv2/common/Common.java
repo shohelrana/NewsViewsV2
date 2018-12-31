@@ -30,6 +30,8 @@ public class Common {
     public static final String LOG_WITH_FB= "login_with_fb";
     public static final String LOG_WITH_GOOGLE = "login_with_google";
 
+    public static final String SEARCH_KEY = "search_key";
+
     private static final String BASE_URL = "https://newsapi.org/";
     public static final String API_KEY = "c4d1e307e4b34358b6f4a7c9dc2b9e0c";
 

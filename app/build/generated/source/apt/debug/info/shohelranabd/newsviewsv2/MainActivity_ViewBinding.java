@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
+import com.mancj.materialsearchbar.MaterialSearchBar;
 import java.lang.IllegalStateException;
 import java.lang.Override;
 
@@ -25,6 +26,7 @@ public class MainActivity_ViewBinding implements Unbinder {
 
     target.swipRefresh = Utils.findRequiredViewAsType(source, R.id.swipRefresh, "field 'swipRefresh'", SwipeRefreshLayout.class);
     target.recyclerView = Utils.findRequiredViewAsType(source, R.id.recyclerView, "field 'recyclerView'", RecyclerView.class);
+    target.searchBar = Utils.findRequiredViewAsType(source, R.id.searchBar, "field 'searchBar'", MaterialSearchBar.class);
   }
 
   @Override
@@ -36,5 +38,6 @@ public class MainActivity_ViewBinding implements Unbinder {
 
     target.swipRefresh = null;
     target.recyclerView = null;
+    target.searchBar = null;
   }
 }

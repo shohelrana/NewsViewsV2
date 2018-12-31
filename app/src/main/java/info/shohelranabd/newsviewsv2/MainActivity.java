@@ -22,6 +22,7 @@ import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.gson.Gson;
+import com.mancj.materialsearchbar.MaterialSearchBar;
 import com.mikepenz.materialdrawer.AccountHeader;
 import com.mikepenz.materialdrawer.AccountHeaderBuilder;
 import com.mikepenz.materialdrawer.Drawer;
@@ -34,6 +35,8 @@ import com.mikepenz.materialdrawer.model.interfaces.IProfile;
 import com.mikepenz.materialdrawer.util.AbstractDrawerImageLoader;
 import com.mikepenz.materialdrawer.util.DrawerImageLoader;
 import com.squareup.picasso.Picasso;
+
+import java.util.List;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -54,7 +57,7 @@ import retrofit2.Response;
 /**
  * Created by Md. Shohel Rana on 29 December,2018
  */
-public class MainActivity extends AppCompatActivity implements SwipeRefreshLayout.OnRefreshListener {
+public class MainActivity extends AppCompatActivity implements SwipeRefreshLayout.OnRefreshListener, MaterialSearchBar.OnSearchActionListener {
 
     //Preferences
     private SharedPreferences preferences;
@@ -82,6 +85,12 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
     //Google sign client
     GoogleSignInClient mGoogleSignInClient;
 
+    //Material search
+    private List<String> lastSearches;
+
+    @BindView(R.id.searchBar)
+    MaterialSearchBar searchBar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -95,6 +104,12 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
         isLoggedIn = preferences.getBoolean(Common.LOG_PREFS_KY, false);
         loggedInWith = preferences.getString(Common.LOG_WITH_PREFS_KEY, "");
 
+        //Material search
+        searchBar.setOnSearchActionListener(this);
+        //restore last queries from disk
+        //lastSearches = loadSearchSuggestionFromDisk();
+        //searchBar.setLastSuggestions(list);
+
         //init paper for cache
         Paper.init(this);
 
@@ -107,8 +122,8 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
 
         //using loggedin status, then update accout header
-        if(isLoggedIn){
-            if (loggedInWith.equals(Common.LOG_WITH_FB)){
+        if (isLoggedIn) {
+            if (loggedInWith.equals(Common.LOG_WITH_FB)) {
 
                 AccessToken accessToken = AccessToken.getCurrentAccessToken();
                 boolean isLoggedInFB = accessToken != null && !accessToken.isExpired();
@@ -120,9 +135,9 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
                     userIconUrl = userIconUri.toString();
                 }
 
-            } else if(loggedInWith.equals(Common.LOG_WITH_GOOGLE)){
+            } else if (loggedInWith.equals(Common.LOG_WITH_GOOGLE)) {
                 GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(this);
-                if(account != null) {
+                if (account != null) {
                     userName = account.getDisplayName();
                     userEmail = account.getEmail();
                     userIconUri = account.getPhotoUrl();
@@ -220,11 +235,11 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
                                     try {
                                         if (loggedInWith.equals(Common.LOG_WITH_FB))
                                             LoginManager.getInstance().logOut();
-                                        else if(loggedInWith.equals(Common.LOG_WITH_GOOGLE))
+                                        else if (loggedInWith.equals(Common.LOG_WITH_GOOGLE))
                                             mGoogleSignInClient.signOut();
 
                                         editor.putBoolean(Common.LOG_PREFS_KY, false).commit();
-                                    } catch(Exception e) {
+                                    } catch (Exception e) {
 
                                     }
                                 }
@@ -339,5 +354,51 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
         builder.setCancelable(false);
         AlertDialog msgAlertDialog = builder.create();
         msgAlertDialog.show();
+    }
+
+    //Methods for material search bar
+    @Override
+    public void onSearchStateChanged(boolean enabled) {
+
+    }
+
+    @Override
+    public void onSearchConfirmed(CharSequence text) {
+        String searchText = searchBar.getText();
+        boolean validInput = false;
+        try {
+            Integer.parseInt(searchText);
+            validInput = true;
+        } catch (NumberFormatException e) {
+            if (searchText.contains("/") && searchText.length() <= 5) {
+                String[] splittedAr = searchText.split("/");
+                try{
+                    int month = Integer.parseInt(splittedAr[0]);
+                    int day = Integer.parseInt(splittedAr[1]);
+                    if (month > 0 && month <= 12 && day > 0 && day <= 31) {
+                        validInput = true;
+                    }
+                } catch (NumberFormatException ex) {}
+            }
+        }
+
+        // if valid, then start activity
+        if (validInput)
+            startActivity(
+                    new Intent(MainActivity.this, SearchResultActivity.class)
+                            .putExtra(Common.SEARCH_KEY, searchText)
+            );
+        else
+            Toast.makeText(MainActivity.this, "Please, Enter either an number or date as month/day format", Toast.LENGTH_LONG).show();
+
+        Log.d(TAG, searchText);
+    }
+
+    @Override
+    public void onButtonClicked(int buttonCode) {
+        String searchText = searchBar.getText();
+        //if (!searchText.isEmpty() && searchText.)
+
+        Log.d(TAG, searchText);
     }
 }

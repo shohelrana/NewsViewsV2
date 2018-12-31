@@ -4,7 +4,7 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "info.shohelranabd.newsviewsv2"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -55,4 +55,7 @@ dependencies {
     implementation 'com.facebook.android:facebook-login:[4,5)'
     //google sign in
     implementation 'com.google.android.gms:play-services-auth:16.0.1'
+
+    //material searchbar
+    implementation 'com.github.mancj:MaterialSearchBar:0.8.1'
 }
