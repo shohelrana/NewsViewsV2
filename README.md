@@ -1,2 +1,2 @@
 # NewsViewsV2
-Android app fetching data from various news website using API and finally show it to the end-users.
+Android project fetching data from various news souces. The features include two intro screens, navigation drawer, facebook and google login, listing and viewing news, search using number api etc.

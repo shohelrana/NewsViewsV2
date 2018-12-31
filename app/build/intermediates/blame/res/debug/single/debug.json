@@ -1424,12 +1424,12 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0-alpha02.aar\\14e69549be45c1363b28671b09e4f204\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
-        "merged": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_dark.xml.flat",
-        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0-alpha01.aar\\50507bf669c1e854764ff75a5c08ae56\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
         "merged": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search.png.flat",
         "source": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\src\\main\\res\\drawable\\ic_search.png"
+    },
+    {
+        "merged": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_dark.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0-alpha01.aar\\50507bf669c1e854764ff75a5c08ae56\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "D:\\Android-studio-setup\\Learning-projects\\NewsViewsV2\\app\\build\\intermediates\\res\\merged\\debug\\layout_appintro_default_indicator.xml.flat",
