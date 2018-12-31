@@ -196,7 +196,9 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
         DrawerImageLoader.init(new AbstractDrawerImageLoader() {
             @Override
             public void set(ImageView imageView, Uri uri, Drawable placeholder) {
-                Picasso.get().load(uri).placeholder(placeholder).into(imageView);
+                try{
+                    Picasso.get().load(uri).placeholder(placeholder).into(imageView);
+                } catch (Exception e) {}
             }
 
             @Override

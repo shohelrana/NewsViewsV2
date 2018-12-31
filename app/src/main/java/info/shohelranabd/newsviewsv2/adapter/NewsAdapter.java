@@ -67,7 +67,6 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsViewHolder> {
     public NewsViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
         View itemView = inflater.inflate(R.layout.news_layout, parent, false);
-        Log.d("TopNewsAdapter", "OnCreateView...");
         return new NewsViewHolder(itemView);
     }
 
@@ -75,19 +74,22 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsViewHolder> {
     public void onBindViewHolder(@NonNull NewsViewHolder holder, int position) {
         Picasso.get()
                 .setIndicatorsEnabled(true);
-        Picasso.get()
-                .load(news.getArticles().get(position).getUrlToImage())
-                .resize(90, 90)
-                .centerCrop()
-                .placeholder(R.drawable.logo_fallback)
-                .into(holder.article_iamge_thumb);
+        try{
+            Picasso.get()
+                    .load(news.getArticles().get(position).getUrlToImage())
+                    .resize(90, 90)
+                    .centerCrop()
+                    .placeholder(R.drawable.logo_fallback)
+                    .into(holder.article_iamge_thumb);
+        } catch (Exception e) {
+            holder.article_iamge_thumb.setImageResource(R.drawable.logo_fallback);
+        }
 
         holder.article_title.setText(news.getArticles().get(position).getTitle());
 
         holder.setItemClickListener(new ItemClickListener() {
             @Override
             public void onClick(View view, int position, boolean isLongClick) {
-                Log.d("TopNewsAdapter", "Clicked Pos: " + position);
 
                 TextView dialog_title, dialog_description;
                 ImageView dialog_image;
@@ -102,10 +104,12 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsViewHolder> {
                 dialog_image = dialogView.findViewById(R.id.dialog_image);
 
                 dialog_title.setText(news.getArticles().get(position).getTitle());
-                Picasso.get()
-                        .load(news.getArticles().get(position).getUrlToImage())
-                        .placeholder(R.drawable.logo_fallback)
-                        .into(dialog_image);
+                try {
+                    Picasso.get()
+                            .load(news.getArticles().get(position).getUrlToImage())
+                            .placeholder(R.drawable.logo_fallback)
+                            .into(dialog_image);
+                } catch (Exception e) {}
 
                 dialog_description.setText(news.getArticles().get(position).getDescription());
 
