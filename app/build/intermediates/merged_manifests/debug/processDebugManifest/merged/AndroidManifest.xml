@@ -46,8 +46,12 @@
             android:name="info.shohelranabd.newsviewsv2.MainActivity"
             android:theme="@style/MyNoActionBarTheme" >
         </activity>
-        <activity android:name="info.shohelranabd.newsviewsv2.FirstIntroActivity" />
-        <activity android:name="info.shohelranabd.newsviewsv2.SecondIntroActivity" />
+        <activity
+            android:name="info.shohelranabd.newsviewsv2.FirstIntroActivity"
+            android:theme="@style/MyNoActionBarTheme" />
+        <activity
+            android:name="info.shohelranabd.newsviewsv2.SecondIntroActivity"
+            android:theme="@style/MyNoActionBarTheme" />
         <activity
             android:name="info.shohelranabd.newsviewsv2.InitActivity"
             android:theme="@android:style/Theme.NoDisplay" >

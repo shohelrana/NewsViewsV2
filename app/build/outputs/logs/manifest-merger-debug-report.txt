@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-59:12
+ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-61:12
 MERGED from [com.facebook.android:facebook-login:4.39.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-facebook-login-4.39.0.aar\e4d70ec664a641f7b74e29f8bfa07c4b\AndroidManifest.xml:21:1-31:12
 MERGED from [com.github.mancj:MaterialSearchBar:0.8.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-MaterialSearchBar-0.8.1.aar\fd2ffb2101420f34d7ff264ddc058a2d\AndroidManifest.xml:2:1-17:12
 MERGED from [com.facebook.android:facebook-common:4.39.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-facebook-common-4.39.0.aar\9af10b73893242962b61b5139408d511\AndroidManifest.xml:21:1-37:12
@@ -12,6 +12,7 @@ MERGED from [com.mikepenz:materialize:1.2.0] C:\Users\user\.gradle\caches\transf
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\472b3270ccbbfecc3323e2ed5df0a49a\AndroidManifest.xml:17:1-24:12
 MERGED from [com.mikepenz:fastadapter-extensions-expandable:3.3.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\fastadapter-extensions-expandable-3.3.0.aar\2eb8e35ee6ba292d6aa12b640dcac986\AndroidManifest.xml:2:1-11:12
 MERGED from [com.mikepenz:fastadapter-commons:3.3.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\fastadapter-commons-3.3.0.aar\78d4ee4ce534cc9f8363fa93852d000d\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.paolorotolo:appintro:v5.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appintro-v5.1.0.aar\eaaebbde01479d482fcc861e31b26e67\AndroidManifest.xml:2:1-13:12
 MERGED from [com.mikepenz:iconics-core:3.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\iconics-core-3.1.0.aar\50ff35683d35a6a42e3470d9c85e8bfc\AndroidManifest.xml:2:1-11:12
 MERGED from [com.mikepenz:fastadapter:3.3.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-fastadapter-3.3.0.aar\ffcde8f3e368228015f0ac08b4fd7d36\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha3] C:\Users\user\.gradle\caches\transforms-1\files-1.1\constraintlayout-2.0.0-alpha3.aar\e8d554c4a19e3f9cbe5e9e15e57139c5\AndroidManifest.xml:2:1-11:12
@@ -62,20 +63,20 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] C:\
 MERGED from [com.github.d-max:spots-dialog:1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-spots-dialog-1.1.aar\866f8571f1b78c912f49456fd449082e\AndroidManifest.xml:2:1-13:12
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-circleimageview-2.2.0.aar\d8ec86f0ed74e90f4e3a8ba4b04329db\AndroidManifest.xml:2:1-11:12
 MERGED from [io.paperdb:paperdb:2.6] C:\Users\user\.gradle\caches\transforms-1\files-1.1\paperdb-2.6.aar\523a595422cb38d32b8b907159741653\AndroidManifest.xml:2:1-14:12
-INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-61:12
 	package
 		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:3:5-44
 		INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-59:12
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-61:12
 		INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-59:12
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:1-61:12
 		INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:2:11-69
@@ -88,7 +89,7 @@ ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\An
 	android:name
 		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:8:5-57:19
+ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:8:5-59:19
 MERGED from [com.facebook.android:facebook-login:4.39.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-facebook-login-4.39.0.aar\e4d70ec664a641f7b74e29f8bfa07c4b\AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-login:4.39.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-facebook-login-4.39.0.aar\e4d70ec664a641f7b74e29f8bfa07c4b\AndroidManifest.xml:28:5-29:19
 MERGED from [com.github.mancj:MaterialSearchBar:0.8.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-MaterialSearchBar-0.8.1.aar\fd2ffb2101420f34d7ff264ddc058a2d\AndroidManifest.xml:11:5-15:19
@@ -97,6 +98,8 @@ MERGED from [com.facebook.android:facebook-common:4.39.0] C:\Users\user\.gradle\
 MERGED from [com.facebook.android:facebook-common:4.39.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-facebook-common-4.39.0.aar\9af10b73893242962b61b5139408d511\AndroidManifest.xml:28:5-35:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\472b3270ccbbfecc3323e2ed5df0a49a\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\472b3270ccbbfecc3323e2ed5df0a49a\AndroidManifest.xml:22:5-20
+MERGED from [com.github.paolorotolo:appintro:v5.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appintro-v5.1.0.aar\eaaebbde01479d482fcc861e31b26e67\AndroidManifest.xml:11:5-20
+MERGED from [com.github.paolorotolo:appintro:v5.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appintro-v5.1.0.aar\eaaebbde01479d482fcc861e31b26e67\AndroidManifest.xml:11:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha3] C:\Users\user\.gradle\caches\transforms-1\files-1.1\constraintlayout-2.0.0-alpha3.aar\e8d554c4a19e3f9cbe5e9e15e57139c5\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha3] C:\Users\user\.gradle\caches\transforms-1\files-1.1\constraintlayout-2.0.0-alpha3.aar\e8d554c4a19e3f9cbe5e9e15e57139c5\AndroidManifest.xml:9:5-20
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\1e8e9e8de56c3a1e7777b125f3811a29\AndroidManifest.xml:7:5-12:19
@@ -186,47 +189,51 @@ ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\An
 	android:name
 		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:35:19-47
 activity#info.shohelranabd.newsviewsv2.FirstIntroActivity
-ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:38:9-56
+ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:38:9-39:56
+	android:theme
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:39:13-54
 	android:name
 		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:38:19-53
 activity#info.shohelranabd.newsviewsv2.SecondIntroActivity
-ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:39:9-57
+ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:40:9-41:56
+	android:theme
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:41:13-54
 	android:name
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:39:19-54
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:40:19-54
 activity#info.shohelranabd.newsviewsv2.InitActivity
-ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:40:9-48:20
+ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:42:9-50:20
 	android:theme
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:42:13-59
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:44:13-59
 	android:name
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:41:13-41
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:43:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:43:13-47:29
+ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:45:13-49:29
 action#android.intent.action.MAIN
-ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:44:17-69
+ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:46:17-69
 	android:name
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:44:25-66
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:46:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:46:17-77
+ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:48:17-77
 	android:name
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:46:27-74
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:48:27-74
 activity#info.shohelranabd.newsviewsv2.LoginActivity
-ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:49:9-51:53
+ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:51:9-53:53
 	android:label
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:51:13-50
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:53:13-50
 	android:name
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:50:13-42
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:52:13-42
 activity#info.shohelranabd.newsviewsv2.NewsDetailsActivity
-ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:52:9-55:56
+ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:54:9-57:56
 	android:label
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:54:13-49
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:56:13-49
 	android:theme
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:55:13-44
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:57:13-44
 	android:name
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:53:13-48
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:55:13-48
 activity#info.shohelranabd.newsviewsv2.SearchResultActivity
-ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:56:9-67
+ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:58:9-67
 	android:name
-		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:56:19-55
+		ADDED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml:58:19-55
 uses-sdk
 INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Android-studio-setup\Learning-projects\NewsViewsV2\app\src\main\AndroidManifest.xml
@@ -247,6 +254,8 @@ MERGED from [com.mikepenz:fastadapter-extensions-expandable:3.3.0] C:\Users\user
 MERGED from [com.mikepenz:fastadapter-extensions-expandable:3.3.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\fastadapter-extensions-expandable-3.3.0.aar\2eb8e35ee6ba292d6aa12b640dcac986\AndroidManifest.xml:7:5-9:41
 MERGED from [com.mikepenz:fastadapter-commons:3.3.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\fastadapter-commons-3.3.0.aar\78d4ee4ce534cc9f8363fa93852d000d\AndroidManifest.xml:7:5-9:41
 MERGED from [com.mikepenz:fastadapter-commons:3.3.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\fastadapter-commons-3.3.0.aar\78d4ee4ce534cc9f8363fa93852d000d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.paolorotolo:appintro:v5.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appintro-v5.1.0.aar\eaaebbde01479d482fcc861e31b26e67\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.paolorotolo:appintro:v5.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appintro-v5.1.0.aar\eaaebbde01479d482fcc861e31b26e67\AndroidManifest.xml:7:5-9:41
 MERGED from [com.mikepenz:iconics-core:3.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\iconics-core-3.1.0.aar\50ff35683d35a6a42e3470d9c85e8bfc\AndroidManifest.xml:7:5-9:41
 MERGED from [com.mikepenz:iconics-core:3.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\iconics-core-3.1.0.aar\50ff35683d35a6a42e3470d9c85e8bfc\AndroidManifest.xml:7:5-9:41
 MERGED from [com.mikepenz:fastadapter:3.3.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\jetified-fastadapter-3.3.0.aar\ffcde8f3e368228015f0ac08b4fd7d36\AndroidManifest.xml:7:5-9:41

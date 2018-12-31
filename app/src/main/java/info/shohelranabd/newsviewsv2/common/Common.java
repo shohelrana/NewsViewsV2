@@ -23,6 +23,7 @@ import okhttp3.OkHttpClient;
 public class Common {
     //  Preference name
     public static final String PREFS_NAME = "news_prefs";
+    public static final String ACT_ID_PREFS_KEY = "activity_id";
     public static final String LOG_WITH_PREFS_KEY = "login_with";
     public static final String LOG_PREFS_KY = "isLoggedIn";
 

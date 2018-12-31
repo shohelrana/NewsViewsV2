@@ -35,8 +35,10 @@
         <activity android:name=".MainActivity"
             android:theme="@style/MyNoActionBarTheme">
         </activity>
-        <activity android:name=".FirstIntroActivity" />
-        <activity android:name=".SecondIntroActivity" />
+        <activity android:name=".FirstIntroActivity"
+            android:theme="@style/MyNoActionBarTheme"/>
+        <activity android:name=".SecondIntroActivity"
+            android:theme="@style/MyNoActionBarTheme"/>
         <activity
             android:name=".InitActivity"
             android:theme="@android:style/Theme.NoDisplay">

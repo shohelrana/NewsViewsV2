@@ -58,4 +58,7 @@ dependencies {
 
     //material searchbar
     implementation 'com.github.mancj:MaterialSearchBar:0.8.1'
+
+    //App intro
+    implementation 'com.github.paolorotolo:appintro:v5.1.0'
 }

@@ -10,5 +10,13 @@
     <string name="facebook_app_id">1048399178672920</string>
     <string name="fb_login_protocol_scheme">fb1048399178672920</string>
     <string name="login_options">Login Options</string>
+    <string name="dev_short_desp">I am a full-stack developer and excel at programming front-end and back-end servieces in variety of languages, frameworks and platforms including ANDROID.</string>
+    <string name="f_intro_app_desp">The features including in this app are two intro screens, navigation drawer, facebook and google login, listing and viewing news, search using number api etc.</string>
+    <string name="dev_name">Md. Shohel Rana</string>
+    <string name="dev_self">About this App</string>
+    <string name="about_self_desp">I have developed this app based on the given instructions. I have used the libraries that was mentioned.</string>
+    <string name="intro_search">Search</string>
+    <string name="intro_search_desp">You can search using number and can get the trivia and also get history through date searching with the help of number api.</string>
+    <string name="intro_log_desp">User can login either by google or facebook api.</string>
 
 </resources>

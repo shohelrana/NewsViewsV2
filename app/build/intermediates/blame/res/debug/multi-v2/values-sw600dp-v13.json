@@ -13,11 +13,28 @@
                         "endOffsets": "105"
                     },
                     "to": {
-                        "startLines": "20",
+                        "startLines": "22",
                         "startColumns": "4",
-                        "startOffsets": "1237",
+                        "startOffsets": "1354",
                         "endColumns": "54",
-                        "endOffsets": "1287"
+                        "endOffsets": "1404"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appintro-v5.1.0.aar\\eaaebbde01479d482fcc861e31b26e67\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,58",
+                        "endOffsets": "108,167"
+                    },
+                    "to": {
+                        "startLines": "10,11",
+                        "startColumns": "4,4",
+                        "startOffsets": "611,669",
+                        "endColumns": "57,58",
+                        "endOffsets": "664,723"
                     }
                 },
                 {
@@ -31,12 +48,12 @@
                         "endOffsets": "110,180,251,323,381,439,548,612,675,847"
                     },
                     "to": {
-                        "startLines": "10,11,12,13,14,15,16,18,21,22",
+                        "startLines": "12,13,14,15,16,17,18,20,23,24",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "611,671,741,812,884,942,1000,1109,1292,1355",
-                        "endLines": "10,11,12,13,14,15,17,18,21,25",
+                        "startOffsets": "728,788,858,929,1001,1059,1117,1226,1409,1472",
+                        "endLines": "12,13,14,15,16,17,19,20,23,27",
                         "endColumns": "59,69,70,71,57,57,10,63,62,10",
-                        "endOffsets": "666,736,807,879,937,995,1104,1168,1350,1522"
+                        "endOffsets": "783,853,924,996,1054,1112,1221,1285,1467,1639"
                     }
                 },
                 {
@@ -49,11 +66,11 @@
                         "endOffsets": "114"
                     },
                     "to": {
-                        "startLines": "19",
+                        "startLines": "21",
                         "startColumns": "4",
-                        "startOffsets": "1173",
+                        "startOffsets": "1290",
                         "endColumns": "63",
-                        "endOffsets": "1232"
+                        "endOffsets": "1349"
                     }
                 },
                 {
