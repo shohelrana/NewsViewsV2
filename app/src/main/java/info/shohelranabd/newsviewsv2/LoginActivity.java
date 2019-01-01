@@ -46,6 +46,9 @@ public class LoginActivity extends AppCompatActivity {
     GoogleSignInClient mGoogleSignInClient;
     GoogleSignInAccount account;
 
+    @BindView(R.id.goWOLogin)
+    Button goWOLogin;
+
     @BindView(R.id.sign_in_button)
     SignInButton signInButton;
 
@@ -128,6 +131,12 @@ public class LoginActivity extends AppCompatActivity {
         updateWithAcount(account);
 
         signInButton.setSize(SignInButton.SIZE_WIDE);
+    }
+
+    @OnClick(R.id.goWOLogin)
+    public void goWOLogin() {
+        startActivity(new Intent(LoginActivity.this, MainActivity.class));
+        LoginActivity.this.finish();
     }
 
     //update view

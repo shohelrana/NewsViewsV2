@@ -15,7 +15,9 @@ import java.lang.Override;
 public class LoginActivity_ViewBinding implements Unbinder {
   private LoginActivity target;
 
-  private View view7f08015a;
+  private View view7f0800af;
+
+  private View view7f08015b;
 
   private View view7f0800ad;
 
@@ -29,9 +31,18 @@ public class LoginActivity_ViewBinding implements Unbinder {
     this.target = target;
 
     View view;
+    view = Utils.findRequiredView(source, R.id.goWOLogin, "field 'goWOLogin' and method 'goWOLogin'");
+    target.goWOLogin = Utils.castView(view, R.id.goWOLogin, "field 'goWOLogin'", Button.class);
+    view7f0800af = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.goWOLogin();
+      }
+    });
     view = Utils.findRequiredView(source, R.id.sign_in_button, "field 'signInButton' and method 'googleSignIn'");
     target.signInButton = Utils.castView(view, R.id.sign_in_button, "field 'signInButton'", SignInButton.class);
-    view7f08015a = view;
+    view7f08015b = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -56,11 +67,14 @@ public class LoginActivity_ViewBinding implements Unbinder {
     if (target == null) throw new IllegalStateException("Bindings already cleared.");
     this.target = null;
 
+    target.goWOLogin = null;
     target.signInButton = null;
     target.g_signout_bnt = null;
 
-    view7f08015a.setOnClickListener(null);
-    view7f08015a = null;
+    view7f0800af.setOnClickListener(null);
+    view7f0800af = null;
+    view7f08015b.setOnClickListener(null);
+    view7f08015b = null;
     view7f0800ad.setOnClickListener(null);
     view7f0800ad = null;
   }

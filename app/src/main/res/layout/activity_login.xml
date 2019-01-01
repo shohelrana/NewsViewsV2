@@ -10,6 +10,14 @@
     android:gravity="center_vertical"
     tools:context=".LoginActivity">
 
+    <Button
+        android:id="@+id/goWOLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="Go Without Login"/>
+
 
     <com.facebook.login.widget.LoginButton
         android:id="@+id/login_button"
