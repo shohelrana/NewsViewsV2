@@ -123,30 +123,34 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
 
         //using loggedin status, then update accout header
         if (isLoggedIn) {
-            if (loggedInWith.equals(Common.LOG_WITH_FB)) {
+            try {
+                if (loggedInWith.equals(Common.LOG_WITH_FB)) {
 
-                AccessToken accessToken = AccessToken.getCurrentAccessToken();
-                boolean isLoggedInFB = accessToken != null && !accessToken.isExpired();
-                if (isLoggedInFB) {
-                    Profile profile = Profile.getCurrentProfile();
-                    userName = profile.getName();
-                    //userEmail = profile.get;
-                    userIconUri = profile.getProfilePictureUri(100, 100);
-                    userIconUrl = userIconUri.toString();
-                }
+                    AccessToken accessToken = AccessToken.getCurrentAccessToken();
+                    boolean isLoggedInFB = accessToken != null && !accessToken.isExpired();
+                    if (isLoggedInFB) {
+                        Profile profile = Profile.getCurrentProfile();
+                        userName = profile.getName();
+                        //userEmail = profile.get;
+                        userIconUri = profile.getProfilePictureUri(100, 100);
+                        userIconUrl = userIconUri.toString();
+                    }
 
-            } else if (loggedInWith.equals(Common.LOG_WITH_GOOGLE)) {
-                GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(this);
-                if (account != null) {
-                    userName = account.getDisplayName();
-                    userEmail = account.getEmail();
-                    userIconUri = account.getPhotoUrl();
-                    userIconUrl = userIconUri.toString();
+                } else if (loggedInWith.equals(Common.LOG_WITH_GOOGLE)) {
+                    GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(this);
+                    if (account != null) {
+                        userName = account.getDisplayName();
+                        userEmail = account.getEmail();
+                        userIconUri = account.getPhotoUrl();
+                        userIconUrl = userIconUri.toString();
 
                     /*Picasso.get()
                             .load(userIconUrl)*/
+                    }
                 }
+            } catch (Exception e) {
             }
+            ;
         }
 
         //init soptted dialog
@@ -196,9 +200,10 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
         DrawerImageLoader.init(new AbstractDrawerImageLoader() {
             @Override
             public void set(ImageView imageView, Uri uri, Drawable placeholder) {
-                try{
+                try {
                     Picasso.get().load(uri).placeholder(placeholder).into(imageView);
-                } catch (Exception e) {}
+                } catch (Exception e) {
+                }
             }
 
             @Override
@@ -288,7 +293,7 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
 
                             Log.d(TAG, response.body().getArticles().get(0).getTitle());
 
-                            //dialog.dismiss();
+                            dialog.dismiss();
                         }
 
                         @Override
@@ -315,7 +320,7 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
 
                         swipRefresh.setRefreshing(false);
 
-                        //dialog.dismiss();
+                        dialog.dismiss();
                     }
 
                     @Override
@@ -375,13 +380,14 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
         } catch (NumberFormatException e) {
             if (searchText.contains("/") && searchText.length() <= 5) {
                 String[] splittedAr = searchText.split("/");
-                try{
+                try {
                     int month = Integer.parseInt(splittedAr[0]);
                     int day = Integer.parseInt(splittedAr[1]);
                     if (month > 0 && month <= 12 && day > 0 && day <= 31) {
                         validInput = true;
                     }
-                } catch (NumberFormatException ex) {}
+                } catch (NumberFormatException ex) {
+                }
             }
         }
 
